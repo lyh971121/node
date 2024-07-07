@@ -1,34 +1,39 @@
 module.exports = {
-  title: "NorthUnicorn",
+  title: "小刘的工作日志",
   base: "/",
   themeConfig: {
     editLinkText: "编辑此页",
     lastUpdated: "上次更新",
-    nav: [{
-      text: "front",
-      link: "/front/"
-    },
-    {
-      text: "back",
-      link: "/houduan/"
-    },
-    {
-      text: "devOps",
-      link: "/devOps/"
-    },
-    {
-      text: "interview",
-      link: "/interview/"
-    },
-    {
-      text: "article",
-      link: "/article/"
-    }
-    ,
-    {
-      text: "GitHub",
-      link: "https://github.com/lyh971121"
-    }
+    nav: [
+      {
+        text: "worklog",
+        link: "/worklog/"
+      },
+      {
+        text: "front",
+        link: "/front/"
+      },
+      {
+        text: "back",
+        link: "/houduan/"
+      },
+      {
+        text: "devOps",
+        link: "/devOps/"
+      },
+      {
+        text: "interview",
+        link: "/interview/"
+      },
+      {
+        text: "article",
+        link: "/article/"
+      }
+      ,
+      {
+        text: "GitHub",
+        link: "https://github.com/lyh971121"
+      }
     ],
     sidebar: {
       "/article/": [{
@@ -49,38 +54,50 @@ module.exports = {
           "useLibrary",
           "reg",
         ]
-      },{
-        title:'vue',
-        collapsable:false,
-        children:[
+      }, {
+        title: 'vue',
+        collapsable: false,
+        children: [
           "vueSource",
         ]
-      },{
-        title:'axios',
-        collapsable:false,
-        children:[
+      }, {
+        title: 'axios',
+        collapsable: false,
+        children: [
           "axios",
         ]
-      },{
-        title:'upload',
-        collapsable:false,
-        children:[
+      }, {
+        title: 'upload',
+        collapsable: false,
+        children: [
           "upload",
         ]
-      },{
-        title:'binary',
-        collapsable:false,
-        children:[
+      }, {
+        title: 'binary',
+        collapsable: false,
+        children: [
           "binary",
         ]
-      },{
-        title:'http',
-        collapsable:false,
-        children:[
+      }, {
+        title: 'http',
+        collapsable: false,
+        children: [
           "http",
         ]
       }
-    ],
+      ],
+      "/worklog/": [{
+        title: "worklog",
+        collapsable: false,
+        children: [
+          "技术分享",
+          "h5转盘小游戏",
+          "红包活动",
+          "mock",
+          "koa",
+          "http"
+        ]
+      }],
       "/front/": [{
         title: 'front',
         collapsable: false,
@@ -94,7 +111,7 @@ module.exports = {
           "webpack",
           "video"
         ]
-      },{
+      }, {
         title: 'js',
         collapsable: false,
         children: [
@@ -124,9 +141,9 @@ module.exports = {
         ]
       }],
       "/interview/": [{
-        title:'interview',
-        collapsable:false,
-        children:[
+        title: 'interview',
+        collapsable: false,
+        children: [
           "interviewBase",
           "interviewJs",
           "interviewVue",
