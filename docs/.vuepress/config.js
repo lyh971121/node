@@ -12,6 +12,9 @@ module.exports = {
       {
         text: "front",
         link: "/front/"
+      }, {
+        text: "java",
+        link: "/java/"
       },
       {
         text: "back",
@@ -30,10 +33,10 @@ module.exports = {
         link: "/article/"
       }
       ,
-      {
-        text: "GitHub",
-        link: "https://github.com/lyh971121"
-      }
+      // {
+      //   text: "GitHub",
+      //   link: "https://github.com/lyh971121"
+      // }
     ],
     sidebar: {
       "/article/": [{
@@ -116,6 +119,25 @@ module.exports = {
         collapsable: false,
         children: [
           "jsBase",
+        ]
+      }],
+
+      "/java/": [{
+        title: "java",
+        collapsable: false,
+        children: [
+          "流程控制",
+          "数组",
+          "方法",
+          "类和对象",
+          "封装",
+          "对象补充",
+          "继承",
+          "多态",
+          "内部类等",
+          "异常_Object",
+          "基础API",
+          "常用API",
         ]
       }],
       "/houduan/": [{
